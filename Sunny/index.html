@@ -257,7 +257,7 @@ div.clear {
 			<h1>Sunny</h1>
 		</header>
 		<article>
-			<div id="description"><strong>Preferences</strong></div>
+			<div id="description"><strong>Preferences for v1.4.0</strong></div>
 			<form class="pure-form pure-form-stacked">
 				<fieldset>
 					<div class="pure-control-group">
@@ -265,18 +265,18 @@ div.clear {
 						<div class="description"></div>
 						<label for="style-off" class="pure-radio">
 							<input id="style-off" type="radio" name="style" value="0" data-exclude checked>
-							12h
+							12-hour clock
 						</label>
 						<label for="style" class="pure-radio">
 							<input id="style" type="radio" name="style" value="1">
-							24h
+							24-hour clock
 						</label>
 						<script type="text/javascript">
 						document.querySelector("#style").checked = false;
 						</script>
 					</div>
 					<div class="pure-control-group">
-						<h4>Face color</h4>
+						<h4>Watchface color</h4>
 						<div class="description"></div>
 						<label for="invert-off" class="pure-radio">
 							<input id="invert-off" type="radio" name="invert" value="0" data-exclude checked>
@@ -291,30 +291,45 @@ div.clear {
 						</script>
 					</div>
 					<div class="pure-control-group">
-						<h4>Toggle Swatchface on shaking</h4>
+						<h4>Enable to detect shaking?</h4>
+						<div class="description"></div>
+						<label for="changeable-off" class="pure-radio">
+							<input id="changeable-off" type="radio" name="changeable" value="0" data-exclude checked>
+							No
+						</label>
+						<label for="changeable" class="pure-radio">
+							<input id="changeable" type="radio" name="changeable" value="1">
+							Yes
+						</label>
+						<script type="text/javascript">
+						document.querySelector("#changeable").checked = false;
+						</script>
+					</div>
+					<div class="pure-control-group">
+						<h4>What does toggle if shaking?</h4>
 						<div class="description"></div>
 						<label for="toggle-off" class="pure-radio">
 							<input id="toggle-off" type="radio" name="toggle" value="0" data-exclude checked>
-							Off
+							Watchface style
 						</label>
 						<label for="toggle" class="pure-radio">
 							<input id="toggle" type="radio" name="toggle" value="1">
-							On
+							Watchface Color
 						</label>
 						<script type="text/javascript">
 						document.querySelector("#toggle").checked = false;
 						</script>
 					</div>
 					<div class="pure-control-group">
-						<h4>Warn if bluetooth disconnected</h4>
+						<h4>Vibe long if lost bluetooth connection?</h4>
 						<div class="description"></div>
 						<label for="bluetooth-off" class="pure-radio">
 							<input id="bluetooth-off" type="radio" name="bluetooth" value="0" data-exclude checked>
-							Off
+							No
 						</label>
 						<label for="bluetooth" class="pure-radio">
 							<input id="bluetooth" type="radio" name="bluetooth" value="1">
-							On
+							Yes
 						</label>
 						<script type="text/javascript">
 						document.querySelector("#bluetooth").checked = false;
