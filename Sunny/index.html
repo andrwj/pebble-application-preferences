@@ -257,7 +257,7 @@ div.clear {
 			<h1>Sunny</h1>
 		</header>
 		<article>
-			<div id="description"><strong>Preferences for v1.4.0</strong></div>
+			<div id="description"><strong>Preferences for v1.5.0</strong></div>
 			<form class="pure-form pure-form-stacked">
 				<fieldset>
 					<div class="pure-control-group">
@@ -288,6 +288,21 @@ div.clear {
 						</label>
 						<script type="text/javascript">
 						document.querySelector("#invert").checked = false;
+						</script>
+					</div>
+					<div class="pure-control-group">
+						<h4>Display day of week in ..</h4>
+						<div class="description"></div>
+						<label for="language-off" class="pure-radio">
+							<input id="language-off" type="radio" name="language" value="0" data-exclude checked>
+							English
+						</label>
+						<label for="language" class="pure-radio">
+							<input id="language" type="radio" name="language" value="1">
+							Korean
+						</label>
+						<script type="text/javascript">
+						document.querySelector("#language").checked = false;
 						</script>
 					</div>
 					<div class="pure-control-group">
