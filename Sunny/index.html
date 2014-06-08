@@ -257,11 +257,11 @@ div.clear {
 			<h1>Sunny</h1>
 		</header>
 		<article>
-			<div id="description">Preferences for <strong>Sunny watchface v0.6.0</strong></div>
+			<div id="description"><strong>Preferences</strong></div>
 			<form class="pure-form pure-form-stacked">
 				<fieldset>
 					<div class="pure-control-group">
-						<h4>Default Watchface Style</h4>
+						<h4>Watchface Style</h4>
 						<div class="description"></div>
 						<label for="style-off" class="pure-radio">
 							<input id="style-off" type="radio" name="style" value="0" data-exclude checked>
@@ -276,7 +276,7 @@ div.clear {
 						</script>
 					</div>
 					<div class="pure-control-group">
-						<h4>Default Face color</h4>
+						<h4>Face color</h4>
 						<div class="description"></div>
 						<label for="invert-off" class="pure-radio">
 							<input id="invert-off" type="radio" name="invert" value="0" data-exclude checked>
@@ -302,7 +302,7 @@ div.clear {
 							On
 						</label>
 						<script type="text/javascript">
-						document.querySelector("#toggle").checked = true;
+						document.querySelector("#toggle").checked = false;
 						</script>
 					</div>
 					<div class="pure-control-group">
@@ -317,13 +317,8 @@ div.clear {
 							On
 						</label>
 						<script type="text/javascript">
-						document.querySelector("#bluetooth").checked = true;
+						document.querySelector("#bluetooth").checked = false;
 						</script>
-					</div>
-					<div class="pure-control-group">
-						<h4>Your Serial</h4>
-						<div class="description"></div>
-						<input id="license" class="pure-input-1" type="text" name="license" value="unlicensed" maxlength="40" pattern="^unlicensed$" required>
 					</div>
 				</fieldset>
 				<div class="buttons">
@@ -337,7 +332,7 @@ div.clear {
 		</article>
 	</div>
 	<footer class="l-box is-center">
-		by A.J @andrwj
+        A.J <a href="http://twitter.com/andrwj">@andrwj</a>
 	</footer>
 	<script type="text/javascript">
 /* --------------------------
