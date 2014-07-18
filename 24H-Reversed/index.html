@@ -261,7 +261,7 @@ div.clear {
 			<form class="pure-form pure-form-stacked">
 				<fieldset>
 					<div class="pure-control-group">
-						<h4>Bacground Color</h4>
+						<h4>Default Background Color</h4>
 						<div class="description"></div>
 						<label for="backgroundColor-off" class="pure-radio">
 							<input id="backgroundColor-off" type="radio" name="backgroundColor" value="0" data-exclude checked>
@@ -273,6 +273,36 @@ div.clear {
 						</label>
 						<script type="text/javascript">
 						document.querySelector("#backgroundColor").checked = false;
+						</script>
+					</div>
+					<div class="pure-control-group">
+						<h4>Vibe long when losing bluetooth connection</h4>
+						<div class="description"></div>
+						<label for="bluetooth-off" class="pure-radio">
+							<input id="bluetooth-off" type="radio" name="bluetooth" value="0" data-exclude checked>
+							No
+						</label>
+						<label for="bluetooth" class="pure-radio">
+							<input id="bluetooth" type="radio" name="bluetooth" value="1">
+							Yes
+						</label>
+						<script type="text/javascript">
+						document.querySelector("#bluetooth").checked = false;
+						</script>
+					</div>
+					<div class="pure-control-group">
+						<h4>Enable switching background color by shaking</h4>
+						<div class="description"></div>
+						<label for="shaking-off" class="pure-radio">
+							<input id="shaking-off" type="radio" name="shaking" value="0" data-exclude checked>
+							No
+						</label>
+						<label for="shaking" class="pure-radio">
+							<input id="shaking" type="radio" name="shaking" value="1">
+							Yes
+						</label>
+						<script type="text/javascript">
+						document.querySelector("#shaking").checked = false;
 						</script>
 					</div>
 				</fieldset>
